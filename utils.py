@@ -2,7 +2,7 @@ import os
 import tarfile
 import requests
 
-from imagenet_classes import imagenet_class
+from QNN.imagenet_classes import imagenet_class
 
 def print_file(dir_name, fname):
     fpath = os.path.join(dir_name, fname)
